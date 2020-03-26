@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -35,7 +35,7 @@ Partial Class Form1
         '
         Me.lbLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbLogin.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.lbLogin.Location = New System.Drawing.Point(111, 59)
+        Me.lbLogin.Location = New System.Drawing.Point(93, 59)
         Me.lbLogin.Name = "lbLogin"
         Me.lbLogin.Size = New System.Drawing.Size(175, 33)
         Me.lbLogin.TabIndex = 0
@@ -76,7 +76,8 @@ Partial Class Form1
         '
         'btLogin
         '
-        Me.btLogin.Location = New System.Drawing.Point(116, 278)
+        Me.btLogin.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.btLogin.Location = New System.Drawing.Point(98, 282)
         Me.btLogin.Name = "btLogin"
         Me.btLogin.Size = New System.Drawing.Size(170, 23)
         Me.btLogin.TabIndex = 5
@@ -86,18 +87,19 @@ Partial Class Form1
         'lblRegistrar
         '
         Me.lblRegistrar.AutoSize = True
-        Me.lblRegistrar.Location = New System.Drawing.Point(168, 321)
+        Me.lblRegistrar.ImageAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.lblRegistrar.Location = New System.Drawing.Point(143, 319)
         Me.lblRegistrar.Name = "lblRegistrar"
         Me.lblRegistrar.Size = New System.Drawing.Size(60, 13)
         Me.lblRegistrar.TabIndex = 6
         Me.lblRegistrar.TabStop = True
         Me.lblRegistrar.Text = "Registrarse"
         '
-        'Form1
+        'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(407, 361)
+        Me.ClientSize = New System.Drawing.Size(376, 357)
         Me.Controls.Add(Me.lblRegistrar)
         Me.Controls.Add(Me.btLogin)
         Me.Controls.Add(Me.lbPassword)
@@ -105,8 +107,9 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.lbLogin)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Name = "frmLogin"
+        Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

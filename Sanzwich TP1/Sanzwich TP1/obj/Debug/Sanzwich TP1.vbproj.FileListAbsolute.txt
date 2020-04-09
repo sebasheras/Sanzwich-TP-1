@@ -1,1 +1,14 @@
 C:\Users\alumno\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\bin\Debug\Sanzwich TP1.exe.config
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\bin\Debug\Sanzwich TP1.exe.config
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\bin\Debug\Sanzwich TP1.exe
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\bin\Debug\Sanzwich TP1.pdb
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\bin\Debug\Sanzwich TP1.xml
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.vbprojAssemblyReference.cache
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich_TP1.frmLogin.resources
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich_TP1.Resources.resources
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.vbproj.GenerateResource.cache
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.vbproj.CoreCompileInputs.cache
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.exe
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.xml
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich TP1.pdb
+C:\Users\fpaci\Documents\GitHub\Sanzwich-TP-1\Sanzwich TP1\Sanzwich TP1\obj\Debug\Sanzwich_TP1.frmRegistro.resources

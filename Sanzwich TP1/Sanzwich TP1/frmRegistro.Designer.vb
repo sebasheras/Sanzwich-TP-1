@@ -36,6 +36,8 @@ Partial Class frmRegistro
         Me.txContraseña2 = New System.Windows.Forms.TextBox()
         Me.btRegistrarse = New System.Windows.Forms.Button()
         Me.btCancelar = New System.Windows.Forms.Button()
+        Me.dtpNacimiento = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txNombres
@@ -138,7 +140,7 @@ Partial Class frmRegistro
         '
         'btRegistrarse
         '
-        Me.btRegistrarse.Location = New System.Drawing.Point(133, 288)
+        Me.btRegistrarse.Location = New System.Drawing.Point(129, 321)
         Me.btRegistrarse.Name = "btRegistrarse"
         Me.btRegistrarse.Size = New System.Drawing.Size(75, 23)
         Me.btRegistrarse.TabIndex = 12
@@ -147,18 +149,36 @@ Partial Class frmRegistro
         '
         'btCancelar
         '
-        Me.btCancelar.Location = New System.Drawing.Point(133, 317)
+        Me.btCancelar.Location = New System.Drawing.Point(129, 350)
         Me.btCancelar.Name = "btCancelar"
         Me.btCancelar.Size = New System.Drawing.Size(75, 23)
         Me.btCancelar.TabIndex = 13
         Me.btCancelar.Text = "Cancelar"
         Me.btCancelar.UseVisualStyleBackColor = True
         '
+        'dtpNacimiento
+        '
+        Me.dtpNacimiento.Location = New System.Drawing.Point(138, 281)
+        Me.dtpNacimiento.Name = "dtpNacimiento"
+        Me.dtpNacimiento.Size = New System.Drawing.Size(197, 20)
+        Me.dtpNacimiento.TabIndex = 14
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(31, 288)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(60, 13)
+        Me.Label7.TabIndex = 15
+        Me.Label7.Text = "Nacimiento"
+        '
         'frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(347, 352)
+        Me.ClientSize = New System.Drawing.Size(351, 387)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.dtpNacimiento)
         Me.Controls.Add(Me.btCancelar)
         Me.Controls.Add(Me.btRegistrarse)
         Me.Controls.Add(Me.txContraseña2)
@@ -194,4 +214,6 @@ Partial Class frmRegistro
     Friend WithEvents txContraseña2 As TextBox
     Friend WithEvents btRegistrarse As Button
     Friend WithEvents btCancelar As Button
+    Friend WithEvents dtpNacimiento As DateTimePicker
+    Friend WithEvents Label7 As Label
 End Class

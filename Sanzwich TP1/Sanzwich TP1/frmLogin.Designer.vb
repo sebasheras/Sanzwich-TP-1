@@ -23,8 +23,8 @@ Partial Class frmLogin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lbLogin = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txUsuario = New System.Windows.Forms.TextBox()
+        Me.txContraseña = New System.Windows.Forms.TextBox()
         Me.lbUsuario = New System.Windows.Forms.Label()
         Me.lbPassword = New System.Windows.Forms.Label()
         Me.btLogin = New System.Windows.Forms.Button()
@@ -42,19 +42,19 @@ Partial Class frmLogin
         Me.lbLogin.Text = "Bienvenido!"
         Me.lbLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextBox1
+        'txUsuario
         '
-        Me.TextBox1.Location = New System.Drawing.Point(80, 147)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(272, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txUsuario.Location = New System.Drawing.Point(80, 147)
+        Me.txUsuario.Name = "txUsuario"
+        Me.txUsuario.Size = New System.Drawing.Size(272, 20)
+        Me.txUsuario.TabIndex = 1
         '
-        'TextBox2
+        'txContraseña
         '
-        Me.TextBox2.Location = New System.Drawing.Point(80, 204)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(272, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.txContraseña.Location = New System.Drawing.Point(80, 204)
+        Me.txContraseña.Name = "txContraseña"
+        Me.txContraseña.Size = New System.Drawing.Size(272, 20)
+        Me.txContraseña.TabIndex = 2
         '
         'lbUsuario
         '
@@ -104,8 +104,8 @@ Partial Class frmLogin
         Me.Controls.Add(Me.btLogin)
         Me.Controls.Add(Me.lbPassword)
         Me.Controls.Add(Me.lbUsuario)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txContraseña)
+        Me.Controls.Add(Me.txUsuario)
         Me.Controls.Add(Me.lbLogin)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "frmLogin"
@@ -115,8 +115,8 @@ Partial Class frmLogin
 
     End Sub
     Friend WithEvents lbLogin As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txUsuario As System.Windows.Forms.TextBox
+    Friend WithEvents txContraseña As TextBox
     Friend WithEvents lbUsuario As Label
     Friend WithEvents lbPassword As Label
     Friend WithEvents btLogin As Button

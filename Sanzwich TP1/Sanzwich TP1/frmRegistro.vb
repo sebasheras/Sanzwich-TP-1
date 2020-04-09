@@ -7,6 +7,8 @@ Public Class frmRegistro
     End Function
     Private Sub BtRegistrarse_Click(sender As Object, e As EventArgs) Handles btRegistrarse.Click
         Dim ERRORES As String = ""
+        Dim Nacimiento As Date
+        Dim Años As Integer
         If IsNumeric(txApellidos.Text) Or txApellidos.Text.Trim() = "" Then
             ERRORES += "Apellido, "
         End If
@@ -19,9 +21,19 @@ Public Class frmRegistro
         If (txContraseña.Text) <> (txContraseña2.Text) Or txNombres.Text.Trim() = "" Then
             ERRORES += "contraseña, "
         End If
+        Nacimiento = dtpNacimiento.Value
         If ERRORES <> "" Then
             ERRORES = ERRORES.Remove(ERRORES.Length - 2)
+            MsgBox(ERRORES + " no válida(s)")
+            Return
         End If
-        MsgBox(ERRORES + " no válida(s)")
+        FileOpen(1, "usuario.txt", OpenMode.Append)
+        WriteLine(1, txUsuario.Text, txContraseña.Text, txNombres.Text, txApellidos.Text, txMail.Text, Format(Nacimiento, "Short Date"))
+        FileClose()
+        Close()
+    End Sub
+
+    Private Sub BtCancelar_Click(sender As Object, e As EventArgs) Handles btCancelar.Click
+        Close()
     End Sub
 End Class
